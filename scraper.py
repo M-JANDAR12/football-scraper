@@ -6,16 +6,6 @@ import pandas as pd
 from selenium.webdriver.chrome.options import Options
 
 
-WINDOW_SIZE = "1280,720"
-
-# chrome_options = Options()
-# chrome_options.add_argument("--headless")
-# chrome_options.add_argument("--window-size=%s" % WINDOW_SIZE)
-
-# chrome_options = Options()
-# chrome_options.add_argument("--headless")
-# chrome_options.add_argument("--window-size=%s" % WINDOW_SIZE)
-# driver = webdriver.Chrome(ChromeDriverManager().install(),chrome_options=chrome_options)
 driver = webdriver.Chrome(ChromeDriverManager().install())
 
 driver.get("https://www.whoscored.com/Statistics")
